@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
+        android:inputType="number|numberDecimal|numberSigned"
         android:gravity="center"
         android:hint="Insira um valor em euros" />
 
