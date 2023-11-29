@@ -15,13 +15,23 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.buttonDolar.setOnClickListener {
-            val euros = binding.editEuros.text.toString().trim()
+            escrever(0.8)
+        }
+        binding.buttonPeso.setOnClickListener {
+            escrever(10.2)
+        }
+        binding.buttonReal.setOnClickListener {
+            escrever(5.0)
+        }
+    }
+
+    private fun escrever(taxa: Double) {
+        val euros = binding.editEuros.text.toString().trim()
 
 
-            if(!euros.isEmpty()){
-                val resultado = euros.toDouble() * 0.8
-                Toast.makeText(applicationContext,"${resultado}$", Toast.LENGTH_SHORT).show()
-            }
+        if(!euros.isEmpty()){
+            val resultado = euros.toDouble() * taxa
+            Toast.makeText(applicationContext,"${resultado}$", Toast.LENGTH_SHORT).show()
         }
     }
 }
