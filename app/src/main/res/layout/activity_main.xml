@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Conversor de Moeda"
-        android:textSize="30sp" />
+        android:textSize="40sp" />
 
     <EditText
         android:id="@+id/edit_euros"
