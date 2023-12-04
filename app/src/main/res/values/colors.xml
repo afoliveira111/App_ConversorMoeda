@@ -2,6 +2,6 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="corVerdeClaro">#CCFFCC</color>
-    <color name="corVerdeEscuro">#00CC00</color>
+    <color name="corVerdeClaro">#CDF3CD</color>
+    <color name="corVerdeEscuro">#4D704B</color>
 </resources>
