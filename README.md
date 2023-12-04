@@ -41,7 +41,7 @@ Este é um aplicativo Android simples que atua como um conversor de moeda. O usu
 * Adicionar novas funcionalidades para aprimorar a experiência do usuário.
 
 ## Autor
-Antonio Felipe Oliveira (follow me on www.linkedin.com/in/id-antonio-felipe)
+Antonio Felipe Oliveira (www.linkedin.com/in/id-antonio-felipe)
 
 ## License
 
