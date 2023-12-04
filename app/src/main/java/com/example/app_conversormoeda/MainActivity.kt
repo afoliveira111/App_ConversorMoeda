@@ -29,9 +29,11 @@ class MainActivity : AppCompatActivity() {
         val euros = binding.editEuros.text.toString().trim()
 
 
-        if(!euros.isEmpty()){
+
+        if (!euros.isEmpty()) {
             val resultado = euros.toDouble() * taxa
-            Toast.makeText(applicationContext,"${resultado}$", Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, "${resultado}$", Toast.LENGTH_SHORT).show()
+
         }
     }
 }
