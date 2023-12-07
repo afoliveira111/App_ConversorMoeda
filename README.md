@@ -1,4 +1,5 @@
 # Conversor de Moeda
+Este é um aplicativo Android que atua como um conversor de moeda. O usuário insere um valor em euros, escolhe a moeda desejada (Dólar, Peso ou Real), pressiona o botão correspondente, e o aplicativo realiza a conversão, exibindo o resultado em uma mensagem curta.
 
 
 ## :camera_flash: Screenshots
@@ -18,9 +19,8 @@
 </table>
 
 
-# Aplicativo Conversor de Moeda em Kotlin
 
-Este é um aplicativo Android simples que atua como um conversor de moeda. O usuário insere um valor em euros, escolhe a moeda desejada (Dólar, Peso ou Real), pressiona o botão correspondente, e o aplicativo realiza a conversão, exibindo o resultado em uma mensagem curta.
+
 
 ## Tecnologias Utilizadas
 
@@ -33,6 +33,11 @@ Este é um aplicativo Android simples que atua como um conversor de moeda. O usu
 * **Toast:** Utilização do componente `Toast` para exibir mensagens curtas na interface do usuário.
 
 * **Manipulação de Strings e Números:** Conversão de strings para números para realizar cálculos de conversão de moeda.
+
+## Components de UI:
+* TextView: Para exibição de textos.
+* EditText: Para entrada de texto pelo usuário.
+* Button: Botão para interações do usuário.
 
 ## TODO
 
